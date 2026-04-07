@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+data/large_parallel.csv
+data/clean_hi.csv
+data/clean_te.csv
+
+.DS_Store
+Thumbs.db
