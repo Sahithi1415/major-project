@@ -1,0 +1,19 @@
+{
+  "max_len": 64,
+  "d_model": 128,
+  "lstm_hidden": 128,
+  "nhead": 4,
+  "num_encoder_layers": 2,
+  "num_decoder_layers": 2,
+  "dim_ff": 256,
+  "dropout": 0.1,
+  "quantum_qubits": 4,
+  "quantum_layers": 2,
+  "use_quantum": false,
+  "batch_size": 32,
+  "lr": 0.0001,
+  "epochs": 20,
+  "min_freq": 1,
+  "seed": 42,
+  "artifacts_dir": "artifacts"
+}
