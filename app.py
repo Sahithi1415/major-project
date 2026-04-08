@@ -149,8 +149,8 @@ def translate(text: str, language: str) -> str:
         text=text,
         lang=language,
         device=device,
-        max_new_tokens=128,
-        beam_size=4,
+        max_new_tokens=64,
+        beam_size=1,
     )
 
     if (
